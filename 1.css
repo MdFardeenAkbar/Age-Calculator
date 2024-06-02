@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body {
+    background: rgb(78, 69, 244);
+    background: linear-gradient(90deg, rgba(78, 69, 244, 1) 0%, rgba(124, 155, 249, 1) 90%);
+}
+
+.header {
+    margin: 200px 0px 0px 100px;
+    font-size: 30px;
+    color: aliceblue;
+}
+
+h1 {
+    font-weight: 900;
+}
+
+p {
+    color: yellow;
+}
+
+.ager {
+    background: rgb(124, 155, 249);
+    background: linear-gradient(90deg, rgba(124, 155, 249, 1) 72%, rgba(124, 155, 249, 1) 72%);
+    padding: 28px 20px;
+    width: 460px;
+    margin-top: 25px;
+    margin-left: 100px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#ageinput {
+    padding: 19px 10px;
+    width: 300px;
+    border-radius: 5px;
+    outline: 0;
+    border: 0;
+    font-size: larger;
+}
+
+#btn {
+    font-size: 16px;
+    padding: 16px 25px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    background: yellow;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    transition: padding 0.3s;
+}
+
+#btn:hover {
+    padding: 18px 27px;
+    font-size: 17px;
+}
+
+span {
+    color: yellow;
+}
+
+#result {
+    margin-left: 120px;
+    margin-top: 30px;
+    color: aliceblue;
+    font-size: 18px;
+    font-weight: 100;
+}
